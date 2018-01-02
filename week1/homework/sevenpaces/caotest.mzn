@@ -1,0 +1,10 @@
+var 0..9: C;
+var 0..9: A;
+var 0..9: O;
+var 0..9: Z;
+var 0..9: H;
+var 0..9: I;
+var 0..9: P;
+var 0..9: T;
+var 0..9: E;
+var 0..9: S;

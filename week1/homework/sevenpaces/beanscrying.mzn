@@ -1,0 +1,10 @@
+var 0..9: B;
+var 0..9: E;
+var 0..9: A;
+var 0..9: N;
+var 0..9: S;
+var 0..9: C;
+var 0..9: R;
+var 0..9: Y;
+var 0..9: I;
+var 0..9: G;

@@ -1,0 +1,9 @@
+array [1..4] of int: X_INTRODUCED_2_ = [17,21,13,100];
+var 0..150: J:: output_var;
+var 0..500: Z:: output_var;
+var 0..400: L:: output_var;
+var 0..1000: F:: output_var;
+var 0..20000: X_INTRODUCED_1_ ::var_is_introduced :: is_defined_var;
+constraint int_lin_le(X_INTRODUCED_2_,[Z,L,F,J],10000);
+constraint int_lin_eq([8,10,6,40,-1],[Z,L,F,J,X_INTRODUCED_1_],0):: defines_var(X_INTRODUCED_1_);
+solve  maximize X_INTRODUCED_1_;

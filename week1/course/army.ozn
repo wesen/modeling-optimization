@@ -1,0 +1,5 @@
+output ["F = "++format(F)++", L = "++format(L)++", Z = "++format(Z)++", J = "++format(J)++""];
+int: J;
+int: Z;
+int: L;
+int: F;
