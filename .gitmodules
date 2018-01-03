@@ -1,0 +1,3 @@
+[submodule "specialization-examples"]
+	path = specialization-examples
+	url = https://github.com/MiniZinc/specialization-examples

@@ -6,10 +6,11 @@ array[int] of int: readings;
 int: start;
 
 int: l = length(readings);
-array[int] of int: TIME = 1..l;
+set of int: TIME0 = 0..l;
+set of int: TIME = 1..l;
 
-array[0..length(readings)] of var 25..30: temp;
-array[1..length(readings)] of var CHOICE: choice;
+array[TIME0] of var 25..30: temp;
+array[TIME] of var CHOICE: choice;
 
 constraint temp[0] = start;
 
